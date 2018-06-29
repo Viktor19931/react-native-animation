@@ -19,14 +19,14 @@ class ListItem extends Component {
             UIManager.setLayoutAnimationEnabledExperimental && UIManager.setLayoutAnimationEnabledExperimental(true);
 
         }
-        // LayoutAnimation.easeInEaseOut();
-        LayoutAnimation.configureNext({
-            duration: 100,
-            create: {
-                type: 'linear',
-                property:
-            }
-        });
+        LayoutAnimation.easeInEaseOut();
+        // LayoutAnimation.configureNext({
+        //     duration: 100,
+        //     create: {
+        //         type: 'linear',
+        //         property:
+        //     }
+        // });
     }
 
     renderDescription() {
